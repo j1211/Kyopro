@@ -10,7 +10,7 @@ int main() {
 
 	cin >> a >> b;
 
-	if (a > b) {
+	if (a == b) {
 		cout << "a‚Íb‚Æ“™‚µ‚¢‚Å‚·" << endl;
 	}
 	cout << "a = " << a << " b = " << b << endl;
