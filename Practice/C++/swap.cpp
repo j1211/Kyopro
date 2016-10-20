@@ -1,3 +1,4 @@
+
 //2‚Â‚Ì’l‚ÌŒðŠ·
 
 #include <iostream>
