@@ -1,5 +1,4 @@
-
-//2‚Â‚Ì’l‚ÌŒğŠ·
+//‚Q‚Â‚Ì’l‚ÌŒğŠ·
 
 #include <iostream>
 using namespace std;
