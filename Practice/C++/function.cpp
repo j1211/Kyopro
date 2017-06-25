@@ -1,16 +1,17 @@
-//ŠÖ”‚Æ‚Ícˆê˜A‚Ìˆ—‚ð‚Ü‚Æ‚ß‚Ä‹Lq‚µ‚½‚à‚ÌB’l‚ð“n‚µ‚½‚è•Ô‚µ‚½‚è‚Å‚«‚éB‚±‚ê‚ðãŽè‚­Žg‚¤‚Æ, ƒvƒƒOƒ‰ƒ€‚ðŠÈ’P‚É‘‚¯‚Ü‚·B(main‚Í’¼Š´“I‚É, hoge()‚Æ‚©‚Í’Pƒ‚É‘‚¯‚éj
-//C++‚ÌŠÖ”i‘å‚«‚­•ª‚¯‚Ä4ƒpƒ^[ƒ“j
-//                ˆ—Fvoid hoge() { B;C;D; } int main() { A; hoge(); E; } ‚Ì‚æ‚¤‚É‘‚­‚Æ, ƒvƒƒOƒ‰ƒ€‚ÍABCDE‚Ì‡‚Åˆ—‚µ‚Ü‚·B
-//        –ß‚è’l{ˆ—Fint fuga() { B;C;D; return 10; } int main() { int a = fuga(); } ‚Ì‚æ‚¤‚É‘‚­‚Æ, ƒvƒƒOƒ‰ƒ€‚ÍB,C,D‚ðŽÀs‚µ‚½Œã, a‚É10 (disp‚ªreturn‚µ‚½’l)‚ª‘ã“ü‚³‚ê‚Ü‚·B
-//          ˆø”{ˆ—Fvoid disp(int a) { printf("%d\n", a); } int main() { disp(10); }‚Ì‚æ‚¤‚É‘‚­‚Æ, ƒvƒƒOƒ‰ƒ€‚Í10‚ð•\Ž¦‚µ‚Ü‚·B(disp‚Ìa‚É10‚ð‘ã“ü¨disp“à‚ðŽÀsj
-//  ˆø”{–ß‚è’l{ˆ—GƒTƒ“ƒvƒ‹‚Å‘‚«‚Ü‚·B
+//é–¢æ•°ã¨ã¯â€¦ä¸€é€£ã®å‡¦ç†ã‚’ã¾ã¨ã‚ã¦è¨˜è¿°ã—ãŸã‚‚ã®ã€‚å€¤ã‚’æ¸¡ã—ãŸã‚Šè¿”ã—ãŸã‚Šã§ãã‚‹ã€‚ã“ã‚Œã‚’ä¸Šæ‰‹ãä½¿ã†ã¨, ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã‚’ç°¡å˜ã«æ›¸ã‘ã¾ã™ã€‚(mainã¯ç›´æ„Ÿçš„ã«, hoge()ã¨ã‹ã¯å˜ç´”ã«æ›¸ã‘ã‚‹ï¼‰
+//C++ã®é–¢æ•°ï¼ˆå¤§ããåˆ†ã‘ã¦4ãƒ‘ã‚¿ãƒ¼ãƒ³ï¼‰
+//                å‡¦ç†ï¼švoid hoge() { B;C;D; } int main() { A; hoge(); E; } ã®ã‚ˆã†ã«æ›¸ãã¨, ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã¯ABCDEã®é †ã§å‡¦ç†ã—ã¾ã™ã€‚
+//        æˆ»ã‚Šå€¤ï¼‹å‡¦ç†ï¼šint fuga() { B;C;D; return 10; } int main() { int a = fuga(); } ã®ã‚ˆã†ã«æ›¸ãã¨, ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã¯B,C,Dã‚’å®Ÿè¡Œã—ãŸå¾Œ, aã«10 (dispãŒreturnã—ãŸå€¤)ãŒä»£å…¥ã•ã‚Œã¾ã™ã€‚
+//          å¼•æ•°ï¼‹å‡¦ç†ï¼švoid disp(int a) { printf("%d\n", a); } int main() { disp(10); }ã®ã‚ˆã†ã«æ›¸ãã¨, ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã¯10ã‚’è¡¨ç¤ºã—ã¾ã™ã€‚(dispã®aã«10ã‚’ä»£å…¥â†’dispå†…ã‚’å®Ÿè¡Œï¼‰
+//  å¼•æ•°ï¼‹æˆ»ã‚Šå€¤ï¼‹å‡¦ç†ï¼›ã‚µãƒ³ãƒ—ãƒ«ã§æ›¸ãã¾ã™ã€‚
 
 #include <iostream>
 using namespace std;
 
 int func(int n) {
 	for (int i = 0; i < n * n; i++) { cout << "o"; }
-	
+}
+
 int main() {
 	return 0;
 }
